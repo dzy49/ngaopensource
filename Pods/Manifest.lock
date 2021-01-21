@@ -1,19 +1,44 @@
 PODS:
   - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - MaterialComponents/Palettes (82.0.0)
+  - MaterialComponents/private/Math (82.0.0)
+  - MaterialComponents/ProgressView (82.0.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+    - MotionAnimator (~> 2.1)
+  - MDFInternationalization (2.0.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
   - TagListView (1.3.2)
+  - XLActionController (5.0.0):
+    - XLActionController/Core (= 5.0.0)
+  - XLActionController/Core (5.0.0)
   - XLPagerTabStrip (9.0.0)
   - XMLParsing (0.0.3)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.5)
+  - MaterialComponents/ProgressView
   - TagListView (~> 1.0)
+  - XLActionController
   - XLPagerTabStrip (~> 9.0)
   - XMLParsing (from `https://github.com/ShawnMoore/XMLParsing.git`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - AlamofireImage
+    - MaterialComponents
+    - MDFInternationalization
+    - MotionAnimator
+    - MotionInterchange
     - TagListView
+    - XLActionController
     - XLPagerTabStrip
 
 EXTERNAL SOURCES:
@@ -27,10 +52,16 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  MaterialComponents: 716ab39b84350c755dfd4f8bc9ca168f377af504
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   TagListView: 0c7e9c26b9aff858224ee6b155f5fcacd9e27c83
+  XLActionController: d7dea0b162bd3977311bcba7d377b88d6b87a7b4
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
   XMLParsing: 085edb6fa22c71d6b53a79299f990a91e7414d19
 
-PODFILE CHECKSUM: 1c4fda56e89c6790c9cdc085a3a207894f3b0fb4
+PODFILE CHECKSUM: ce073792f0d2fda890d1343d4def2151822aff3b
 
 COCOAPODS: 1.8.4

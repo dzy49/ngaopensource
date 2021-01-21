@@ -8,13 +8,20 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().tintColor = .white
+       // UITabBar.appearance().tintColor = UIColor(named: "brownBar")
+       // UITabBar.appearance().barTintColor = UIColor(named: "brown")
+        UITabBar.appearance().tintColor = UIColor(named: "tabBarBrown")
+        UITabBar.appearance().barTintColor = UIColor(named: "tabBarBackground")
+
+
         return true
     }
 

@@ -14,13 +14,22 @@
 		8B58E09823ADBDFF0007D79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58E09723ADBDFF0007D79B /* AppDelegate.swift */; };
 		8B58E09A23ADBDFF0007D79B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58E09923ADBDFF0007D79B /* SceneDelegate.swift */; };
 		8B58E09C23ADBDFF0007D79B /* TopicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58E09B23ADBDFF0007D79B /* TopicListController.swift */; };
-		8B58E09E23ADBDFF0007D79B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58E09D23ADBDFF0007D79B /* SecondViewController.swift */; };
 		8B58E0A123ADBDFF0007D79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58E09F23ADBDFF0007D79B /* Main.storyboard */; };
 		8B58E0A323ADBE030007D79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B58E0A223ADBE030007D79B /* Assets.xcassets */; };
 		8B58E0A623ADBE030007D79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58E0A423ADBE030007D79B /* LaunchScreen.storyboard */; };
+		8B6788D0248F8C72006C83CC /* subForumsSaved.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B6788CF248F8C72006C83CC /* subForumsSaved.plist */; };
+		8B6788D22494E0D2006C83CC /* UserAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6788D12494E0D2006C83CC /* UserAgreementViewController.swift */; };
+		8B75C55423F6B8EF00AB4DA0 /* ActionStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B75C55323F6B8EF00AB4DA0 /* ActionStyleCell.xib */; };
+		8B75C55623F9141200AB4DA0 /* NewForumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75C55523F9141100AB4DA0 /* NewForumController.swift */; };
+		8B75C55823FAA19700AB4DA0 /* SavedTopicsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75C55723FAA19600AB4DA0 /* SavedTopicsController.swift */; };
+		8B95F80323B9CD4B00CCEB83 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B95F80223B9CD4B00CCEB83 /* TopicModel.swift */; };
+		8BAA97E423DDEC5000B80CD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA97E323DDEC5000B80CD7 /* HomeViewController.swift */; };
+		8BAA97E623DDF14D00B80CD7 /* SubForumMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA97E523DDF14D00B80CD7 /* SubForumMenuController.swift */; };
+		8BAA97E823DDFFBF00B80CD7 /* subForums.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA97E723DDFFBF00B80CD7 /* subForums.plist */; };
+		8BC3D39524018317004F6BAA /* NgbTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC3D39424018317004F6BAA /* NgbTabBarController.swift */; };
+		8BE40EC92489D21E009D284C /* EditForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE40EC82489D21E009D284C /* EditForumViewController.swift */; };
 		8BF73C6923B20FEE0029E360 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF73C6823B20FEE0029E360 /* Model.swift */; };
 		8BF73C6B23B35BD20029E360 /* TopicListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF73C6A23B35BD20029E360 /* TopicListModel.swift */; };
-		8BF73C6D23B4CD5F0029E360 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF73C6C23B4CD5F0029E360 /* TopicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,18 +39,27 @@
 		8B039C4023B59B2F008BDFAF /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 		8B039C4223B5A8FC008BDFAF /* forumModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forumModels.swift; sourceTree = "<group>"; };
 		8B38DC6E23B89B9B00C3C701 /* TopicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicController.swift; sourceTree = "<group>"; };
-		8B58E09423ADBDFF0007D79B /* ngaopensource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ngaopensource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B58E09423ADBDFF0007D79B /* ngb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ngb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B58E09723ADBDFF0007D79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B58E09923ADBDFF0007D79B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8B58E09B23ADBDFF0007D79B /* TopicListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListController.swift; sourceTree = "<group>"; };
-		8B58E09D23ADBDFF0007D79B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8B58E0A023ADBDFF0007D79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B58E0A223ADBE030007D79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B58E0A523ADBE030007D79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B58E0A723ADBE030007D79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6788CF248F8C72006C83CC /* subForumsSaved.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = subForumsSaved.plist; sourceTree = "<group>"; };
+		8B6788D12494E0D2006C83CC /* UserAgreementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementViewController.swift; sourceTree = "<group>"; };
+		8B75C55323F6B8EF00AB4DA0 /* ActionStyleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionStyleCell.xib; sourceTree = "<group>"; };
+		8B75C55523F9141100AB4DA0 /* NewForumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewForumController.swift; sourceTree = "<group>"; };
+		8B75C55723FAA19600AB4DA0 /* SavedTopicsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTopicsController.swift; sourceTree = "<group>"; };
+		8B95F80223B9CD4B00CCEB83 /* TopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		8BAA97E323DDEC5000B80CD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BAA97E523DDF14D00B80CD7 /* SubForumMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubForumMenuController.swift; sourceTree = "<group>"; };
+		8BAA97E723DDFFBF00B80CD7 /* subForums.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = subForums.plist; sourceTree = "<group>"; };
+		8BC3D39424018317004F6BAA /* NgbTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgbTabBarController.swift; sourceTree = "<group>"; };
+		8BE40EC82489D21E009D284C /* EditForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditForumViewController.swift; sourceTree = "<group>"; };
 		8BF73C6823B20FEE0029E360 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8BF73C6A23B35BD20029E360 /* TopicListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListModel.swift; sourceTree = "<group>"; };
-		8BF73C6C23B4CD5F0029E360 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +104,7 @@
 		8B58E09523ADBDFF0007D79B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B58E09423ADBDFF0007D79B /* ngaopensource.app */,
+				8B58E09423ADBDFF0007D79B /* ngb.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,20 +112,29 @@
 		8B58E09623ADBDFF0007D79B /* ngaopensource */ = {
 			isa = PBXGroup;
 			children = (
+				8B75C55323F6B8EF00AB4DA0 /* ActionStyleCell.xib */,
+				8BAA97E523DDF14D00B80CD7 /* SubForumMenuController.swift */,
 				8B58E09723ADBDFF0007D79B /* AppDelegate.swift */,
 				8B58E09923ADBDFF0007D79B /* SceneDelegate.swift */,
 				8B58E09B23ADBDFF0007D79B /* TopicListController.swift */,
 				8BF73C6A23B35BD20029E360 /* TopicListModel.swift */,
-				8B58E09D23ADBDFF0007D79B /* SecondViewController.swift */,
 				8B58E09F23ADBDFF0007D79B /* Main.storyboard */,
-				8BF73C6C23B4CD5F0029E360 /* TopicModel.swift */,
+				8B75C55523F9141100AB4DA0 /* NewForumController.swift */,
 				8BF73C6823B20FEE0029E360 /* Model.swift */,
+				8B95F80223B9CD4B00CCEB83 /* TopicModel.swift */,
 				8B039C4223B5A8FC008BDFAF /* forumModels.swift */,
 				8B58E0A223ADBE030007D79B /* Assets.xcassets */,
 				8B58E0A423ADBE030007D79B /* LaunchScreen.storyboard */,
 				8B58E0A723ADBE030007D79B /* Info.plist */,
 				8B039C4023B59B2F008BDFAF /* util.swift */,
 				8B38DC6E23B89B9B00C3C701 /* TopicController.swift */,
+				8BAA97E323DDEC5000B80CD7 /* HomeViewController.swift */,
+				8BAA97E723DDFFBF00B80CD7 /* subForums.plist */,
+				8B6788CF248F8C72006C83CC /* subForumsSaved.plist */,
+				8B75C55723FAA19600AB4DA0 /* SavedTopicsController.swift */,
+				8BC3D39424018317004F6BAA /* NgbTabBarController.swift */,
+				8BE40EC82489D21E009D284C /* EditForumViewController.swift */,
+				8B6788D12494E0D2006C83CC /* UserAgreementViewController.swift */,
 			);
 			path = ngaopensource;
 			sourceTree = "<group>";
@@ -131,7 +158,7 @@
 			);
 			name = ngaopensource;
 			productName = ngaopensource;
-			productReference = 8B58E09423ADBDFF0007D79B /* ngaopensource.app */;
+			productReference = 8B58E09423ADBDFF0007D79B /* ngb.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,9 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6788D0248F8C72006C83CC /* subForumsSaved.plist in Resources */,
 				8B58E0A623ADBE030007D79B /* LaunchScreen.storyboard in Resources */,
 				8B58E0A323ADBE030007D79B /* Assets.xcassets in Resources */,
 				8B58E0A123ADBDFF0007D79B /* Main.storyboard in Resources */,
+				8BAA97E823DDFFBF00B80CD7 /* subForums.plist in Resources */,
+				8B75C55423F6B8EF00AB4DA0 /* ActionStyleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,16 +257,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF73C6D23B4CD5F0029E360 /* TopicModel.swift in Sources */,
 				8B039C4323B5A8FC008BDFAF /* forumModels.swift in Sources */,
 				8BF73C6923B20FEE0029E360 /* Model.swift in Sources */,
 				8B38DC6F23B89B9B00C3C701 /* TopicController.swift in Sources */,
-				8B58E09E23ADBDFF0007D79B /* SecondViewController.swift in Sources */,
+				8B75C55823FAA19700AB4DA0 /* SavedTopicsController.swift in Sources */,
 				8B039C4123B59B30008BDFAF /* util.swift in Sources */,
+				8B95F80323B9CD4B00CCEB83 /* TopicModel.swift in Sources */,
+				8B6788D22494E0D2006C83CC /* UserAgreementViewController.swift in Sources */,
 				8B58E09C23ADBDFF0007D79B /* TopicListController.swift in Sources */,
+				8BAA97E423DDEC5000B80CD7 /* HomeViewController.swift in Sources */,
 				8B58E09823ADBDFF0007D79B /* AppDelegate.swift in Sources */,
 				8B58E09A23ADBDFF0007D79B /* SceneDelegate.swift in Sources */,
 				8BF73C6B23B35BD20029E360 /* TopicListModel.swift in Sources */,
+				8BE40EC92489D21E009D284C /* EditForumViewController.swift in Sources */,
+				8B75C55623F9141200AB4DA0 /* NewForumController.swift in Sources */,
+				8BAA97E623DDF14D00B80CD7 /* SubForumMenuController.swift in Sources */,
+				8BC3D39524018317004F6BAA /* NgbTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -366,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -388,8 +424,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.umd.ngaopensource;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umd.ngb;
+				PRODUCT_NAME = ngb;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,8 +443,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.umd.ngaopensource;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umd.ngb;
+				PRODUCT_NAME = ngb;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

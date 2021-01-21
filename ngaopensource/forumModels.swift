@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import UIKit
+
 class __T:Codable{
-    let topics:[Topic]
+    var topics:[Topic]
     enum CodingKeys: String, CodingKey {
         case topics = "item"
     }
@@ -59,13 +61,13 @@ enum ArrOrSubForum:Codable{
     case arr([SubForum]?)
     case subForum(SubForum?)
 }
-class Topic:Codable{
+class Topic:NSObject, Codable{
     var tid: Int?
     let fid, quoteFrom: Int?
     let quoteTo: String?
     let icon: Int?
     let topicMisc, author: String?
-    let authorid: Int?
+    let authorid: String?
     let subject: String?
     let type, postdate, lastpost: Int?
     let lastposter: String?
@@ -77,6 +79,7 @@ class Topic:Codable{
     var score:Int?
     var tags:[String]?
     var subjectNoTags:String?
+    var image:Data?
     
     enum CodingKeys: String, CodingKey {
         case tid, fid
@@ -91,6 +94,7 @@ class Topic:Codable{
         case score
         case tags
         case subjectNoTags
+        case image
     }
 
     

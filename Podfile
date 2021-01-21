@@ -12,6 +12,7 @@ target 'ngaopensource' do
   pod 'XMLParsing', :git => 'https://github.com/ShawnMoore/XMLParsing.git'
   pod 'TagListView', '~> 1.0'
   pod 'XLPagerTabStrip', '~> 9.0'
-
-
+  pod 'AlamofireImage', '~> 3.5'
+  pod 'XLActionController'
+  pod 'MaterialComponents/ProgressView'
 end
